@@ -1,7 +1,7 @@
-/* Arquivo style.css com tema escuro */
+
 body {
-  background-color: #121212; /* fundo preto */
-  color: #ffffff; /* texto claro */
+  background-color: #121212; 
+  color: #ffffff; 
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
@@ -14,24 +14,24 @@ main {
 }
 
 .title {
-  color: #c792ea; /* roxo claro */
+  color: #c792ea; 
   text-align: center;
 }
 
 .content-section {
-  background-color: #1e1e1e; /* fundo escuro para as seções */
+  background-color: #1e1e1e; 
   margin: 20px 0;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* sombra para dar profundidade */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
 }
 
 .content-section h2 {
-  color: #bb86fc; /* roxo mais vibrante */
+  color: #bb86fc; 
 }
 
 .content-section p {
-  color: #e0e0e0; /* texto cinza claro */
+  color: #e0e0e0; 
 }
 
 .content-section img {
@@ -41,19 +41,18 @@ main {
   border-radius: 4px;
 }
 
-/* Estilização adicional conforme necessário */
 .button {
-  display: inline-block; /* Para se comportar como um botão */
-  padding: 10px 20px; /* Tamanho do botão, ajuste conforme necessário */
-  margin-top: 10px; /* Espaçamento, ajuste conforme necessário */
-  text-decoration: none; /* Remove sublinhado do link */
-  color: #fff; /* Cor do texto */
-  background-color: #007bff; /* Cor de fundo do botão */
-  border: none; /* Remover borda */
-  border-radius: 5px; /* Borda arredondada */
-  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  display: inline-block; 
+  padding: 10px 20px; 
+  margin-top: 10px;
+  text-decoration: none; 
+  color: #fff; 
+  background-color: #007bff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
 }
-/* Adicione também o estado hover para dar feedback quando o usuário passa o mouse sobre o botão */
+
 .visit-site-button:hover {
   background-color: #0056b3;
 }
